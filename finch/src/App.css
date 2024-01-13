@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+/* src/app.css */
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  /* padding: 5px;
+    margin-right: 10px;
+    display: flex; */
+  width: 358px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.response {
+  margin-top: 20px;
+}
+
+/* app.css */
+.app {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px;
+}
+
+.output {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.textcomponent {
+  border: 2px solid rgba(255, 255, 255, 0.201);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.04);
+  padding: 10px;
+}
+
+.textcomponent input[type="text"] {
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+.response-component {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.micframe {
+  border: 1px solid white;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  width: auto;
+}
+
+.microphoneIcon {
+  height: 30px;
+}
+
+.sendIconFrame {
+  background-color: transparent;
+  border: none;
+}
+
+.sendFrame {
+  color: #ffffff;
+  size: 30px;
+}
+
+@media screen and (max-width: 390px) {
+}
