@@ -1,0 +1,12 @@
+.image {
+  height: 191px;
+  width: 358px;
+}
+
+.image .orderCard {
+  position: absolute;
+  width: 358px;
+  height: 191px;
+  left: calc(50% - 358px / 2);
+  top: 344px;
+}

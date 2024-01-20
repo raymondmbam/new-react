@@ -7,6 +7,7 @@ import { IoSendOutline } from "react-icons/io5";
 import mic from "./assets/microphoneIcon.png";
 import send from "./assets/sendIcon.png";
 import { IconContext } from "react-icons/lib";
+import Homepage from "./pages/homepage";
 
 const apiKey = "{VF.DM.659966b38e056e0007a70011.1dVnphfYAFKc04Dl}";
 const userID = "user_123";
@@ -83,30 +84,7 @@ const App = () => {
   // };
   return (
     <div className="app">
-      <div className="textcomponent">
-        <button className="microphoneframe">
-          <img className="microphoneIcon" alt="" src={mic} />
-        </button>
-        <input
-          className="textinputframe"
-          id="textinput"
-          placeholder="You can say 'Exchange rate today'"
-          type="text"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-        />
-
-        <IconContext.Provider value={{ className: "sendFrame", size: "30px" }}>
-          <button onClick={handleSendClick} className="sendIconFrame">
-            <IoSendOutline />
-          </button>
-        </IconContext.Provider>
-      </div>
-
-      {/* <ResponseComponent response={outputValue} /> */}
-      <div className="response-component">
-        <ResponseComponent response={outputValue} />
-      </div>
+      <Homepage />
     </div>
   );
 };

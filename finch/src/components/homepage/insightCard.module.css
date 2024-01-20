@@ -1,0 +1,12 @@
+.insightCard {
+  height: 248px;
+  width: 362px;
+}
+
+.image .insight {
+  position: absolute;
+  width: 362px;
+  height: 248px;
+  left: calc(50% - 362px / 2);
+  top: 770px;
+}
