@@ -1,0 +1,43 @@
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 131px;
+  position: absolute;
+  width: 356px;
+  height: 49px;
+  left: 16px;
+  top: 56px;
+}
+
+.frame .greeting {
+  width: 176px;
+  height: 28px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 176px;
+  height: 28px;
+  left: 0px;
+  top: 0px;
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  /* identical to box height */
+  color: #625d5d;
+}
+
+.frame .profile-picture {
+  width: 49px;
+  height: 49px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

@@ -1,0 +1,262 @@
+/* .balance-overview {
+  position: absolute;
+  width: 360px;
+  height: 114px;
+  left: 15px;
+  top: 159px;
+}
+
+.balance-overview .account-dropdown {
+  align-items: center;
+  background-color: #2eb67d1a;
+  border: 1px solid;
+  border-color: #12a858;
+  border-radius: 46px;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  left: 222px;
+  padding: 6px 15px;
+  position: absolute;
+  top: 0;
+}
+
+.balance-overview .text-wrapper {
+  width: 92px;
+  height: 17px;
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #12a858;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.balance-overview .caretup-icon {
+  height: 10px;
+  position: relative;
+  width: 10px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(-180deg);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  left: 85.71%;
+  right: -57.14%;
+  top: 75%;
+  bottom: -16.67%;
+  background: #12a858;
+  transform: rotate(-180deg);
+}
+
+.balance-overview .div {
+  position: absolute;
+  width: 122px;
+  height: 15px;
+  left: 0px;
+  top: 10px;
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #919191;
+}
+
+.balance-overview .account-balance {
+  position: absolute;
+  width: 181px;
+  height: 46px;
+  left: 0px;
+  top: 33px;
+
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  color: #4d4545;
+}
+
+.balance-overview .span {
+  color: #4d4545;
+}
+
+.balance-overview .text-wrapper-2 {
+  color: #4c4444;
+}
+
+.balance-overview .text-wrapper-3 {
+  color: #aaaaaaaa;
+}
+
+.balance-overview .eyeOpen {
+  height: 19px;
+  left: 195px;
+  position: absolute;
+  top: 46px;
+  width: 19px;
+}
+
+.balance-overview .book-balance {
+  position: absolute;
+  width: 183px;
+  height: 18px;
+  left: 0px;
+  top: 96px;
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #919191;
+}  */
+
+.balance-overview {
+  position: absolute;
+  width: 360px;
+  height: 114px;
+  left: 15px;
+  top: 159px;
+}
+
+.balance-overview .accountDropdown {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 15px;
+  gap: 6px;
+  position: absolute;
+  width: 138px;
+  height: 29px;
+  left: 222px;
+  top: 0px;
+  background: rgba(46, 182, 125, 0.1);
+  border: 1px solid #12a858;
+  border-radius: 46px;
+}
+
+.balance-overview .textWrapper {
+  width: 92px;
+  height: 17px;
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #12a858;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.balance-overview .caretupIcon {
+  height: 10px;
+  position: relative;
+  width: 10px;
+}
+
+.balance-overview .div {
+  position: absolute;
+  width: 122px;
+  height: 15px;
+  left: 0px;
+  top: 10px;
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #919191;
+}
+
+.balance-overview .accountBalance {
+  position: absolute;
+  width: 214px;
+  height: 46px;
+  left: 0px;
+  top: 33px;
+}
+
+.balance-overview .eyeOpen {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 195px;
+  top: 13.5px;
+}
+
+.balance-overview .cents {
+  position: absolute;
+  width: 33px;
+  height: 46px;
+  left: 151px;
+  top: 0px;
+
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: rgba(170, 170, 170, 0.666667);
+  vertical-align: -0.5em;
+}
+
+.balance-overview .dollars {
+  position: absolute;
+  width: 136px;
+  height: 46px;
+  left: 15px;
+  top: 0px;
+
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #4d4545;
+}
+
+.balance-overview .dollarSign {
+  position: absolute;
+  width: 15px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #4d4545;
+}
+
+.balance-overview .bookBalance {
+  position: absolute;
+  width: 183px;
+  height: 18px;
+  left: 0px;
+  top: 96px;
+
+  font-family: "Inter", Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #919191;
+}
